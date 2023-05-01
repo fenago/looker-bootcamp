@@ -1,6 +1,6 @@
-In this lab, we'll be going through in detail what a dimension is and what a measure it.
+Lab 3: Dimensions and Fields 
 
-Now, a dimension can be thought of a bucket or grouping of data.
+In this lab, we'll be exploring dimensions and measures. Now, a dimension can be thought of a bucket or grouping of data.
 
 For example, if we go to a `sales` table over here, we see a customer as a dimension, which means that the sales data can be grouped by customer.
 
@@ -18,50 +18,89 @@ So, for example, whereas `Product Name` tells you that the data can be grouped b
 
 And most times measures are quantitative values because they need to be information that you get about a group of data.
 
-And if you look at a group of data can combine numbers, you can add them together, you can average numbers, you can median numbers.
+### Task: Dimensions && Measures 
 
-You can't really say some words or.
+In this section, we're are going to add in two dimensions and two measures.
 
-Categories.
+**Dimensions**
 
-Right?
+![](./images/31.png)
 
-So the way I like to think about it is that your dimensions are usually not always your string data
+**Measures**
 
-like name, category date, things like that and your measures or your quantitative data sales cost
+![](./images/32.png)
 
-hours, minutes and things like that.
-
-That's one way to think about it again, the other way is dimensions are a way to group your data,
-
-whereas measures are information about that.
-
-In order to finish this module, what we're going to do over here is we're going to add in two dimensions and two measures.
-
-So given that we still have this over here, we're going to also add in product name as well.
-
-And we're going to add in over here the count.
+**Note:** Make sure that only above dimensions and two measures are selected before clicking `run` buttton.
 
 Let's click run, and then we'll interpret those results as well.
 
-But with this analysis gives us over here is we can now see that, for example, there are six sales
+But with this analysis gives us over here is we can now see that, for example, there are six sales or six transactions where the office was `Houston` and the product name was `Excavator`.
 
-or six transactions where the office was Houston and the product name was excavator.
+![](./images/33.png)
 
-So there are six sales that we made in this time period from the Houston office.
-
-That was like that rented out and an excavator.
+So there are six sales that we made in this time period from the Houston office. That was like that rented out and an excavator.
 
 So excavator and those six transactions gave us seven hundred and seventy seven thousand in revenue.
 
-You look at row two.
+You look at row two. We can see the same thing over here, seven transactions from the San Francisco office.
 
-We can see the same thing over here, seven transactions from the San Francisco office.
+Just like that, we created a very simple report using the Explore that we had, this explore consists of two dimensions and two measures, and the other cool thing about year two to differentiate between the two is dimensions are in blue and measures are in orange.
 
-I rented out a scraper and they gave us seven hundred thirty two thousand of revenue.
 
-Just like that, we created a very simple report using the Explore that we had, this explore consists
+Removing fields
+---------------
 
-of two dimensions and two measures, and the other cool thing about year two to differentiate between
+In this module, we'll talk about dimension and measure manipulation.
 
-the two is dimensions are in blue and measures are in orange.
+The first thing that we can do over here is we can remove certain things.
+So let's say if we don't want to look at product name anymore, we want to look at office, same only.
+
+Well, what we can do is remove product name in two ways.
+
+The first way to do it is to go over here. Click this gear icon and click `Remove`:
+
+![](./images/34.png)
+
+That simply removes this column from the actual data that we have now.
+Again, whenever we do this, what we always seem to do is click run.
+Otherwise, these results don't make sense.
+
+We know the schema of the data will look like office name or wholesale sales count. But this is not correct data:
+
+![](./images/35.png)
+
+We have to actually click **Run** or it to now update.
+
+We had 48 transactions in Detroit, 42 in Seattle, 44 in New York City, and so on and so forth.
+
+![](./images/36.png)
+
+Over here on the left hand side, we have office name and we have total sales and count.
+
+It's a bit difficult to see, but the dimensions and measures that are used in our explorer are actually highlighted.
+
+You can see that as highlighted blue, this is highlighted orange and orange.
+
+If that was the case as well, you can see this number over here that tells you're using 
+one dimension or measure from `office` and you're using two dimensions or measures from `sales`.
+
+![](./images/37.png)
+
+The second way to take out a field is by going to that field and simply clicking it. So `Total Sales` has been selected, but if you click it again. It removes it.
+
+![](./images/38.png)
+
+
+So let's click run, and now this will just show us the office and the count of sales.
+
+![](./images/39.png)
+
+The second way again, going to this on the left hand side is you can also click the **In Use** tab, and this very quickly shows you what's being used and what's not being used.
+
+You can also do a `Clear all`, for example, if you want to start over and start fresh, which will be doing a lot actually when we're creating our explorers.
+
+![](./images/40.png)
+
+So those are the key ways you can remove dimensions and measures or fields as they're called from your current explorer.
+
+![](./images/41.png)
