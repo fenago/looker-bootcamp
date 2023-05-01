@@ -117,6 +117,8 @@ Let just collapse all of these is we're simply going to look at distribution of 
 
 So we know that there is an office over here and under office we're going to select office name.
 
+![](./images/27_1.png)
+
 And in sales, we're going to select `Total Sales`.
 
 ![](./images/27.png)
