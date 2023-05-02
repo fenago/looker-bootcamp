@@ -74,7 +74,7 @@ So what we can do over here is to activate it, if you start on your end is we ca
 
 And over here, we can see `Size points by field`. You can choose any measure you want. And we're going to say that we want to size the points by `Total Sales`.
 
-![](./images/138.png)
+![](./images/137.png)
 
 Detroit actually has forty one transactions, right? Which is same as Orlando.
 But the total sales that come from Detroit is only two point nine million, which is why the circle is alot smaller than Orlando, which is three point seven million.
