@@ -1,4 +1,5 @@
 Lab 4: Sorting and Adding Totals
+--------------------------------
 
 In this lab, we'll go through table manipulations.
 
