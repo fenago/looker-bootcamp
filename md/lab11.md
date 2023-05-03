@@ -1,7 +1,7 @@
 Lab 11: Organize and Edit Look
 ------------------------------
 
-Let's create a another look and then talk about where you can actually find these looks and what they look like.
+Let's create a another look and then discuss where you can actually find these looks and what they look like.
 
 We're going to go back to `Explore`, select `Sales` again and we're going to create a different look this.
 
