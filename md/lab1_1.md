@@ -8,9 +8,13 @@
 In this lab, you will set up a sandbox Looker environment, learn how to visualize data using Looker’s Explore feature, and work with Dimensions and Measures to create and customize dashboards.
 
 ---
-[![Watch Video](https://go.screenpal.com/api/thumbnail?url=cZQjr3VRpCY)](https://go.screenpal.com/watch/cZQjr3VRpCY)
+To get started with Lab 1_1, please watch the video demonstration below:
 
-Click the link or the image above to watch the video demonstration: [https://go.screenpal.com/watch/cZQjr3VRpCY](https://go.screenpal.com/watch/cZQjr3VRpCY)
+[![Watch the Video](https://go.screenpal.com/api/thumbnail?url=cZQjr3VRpCY)](https://go.screenpal.com/watch/cZQjr3VRpCY)
+
+Click the image above or the link below to watch the video:
+
+[Watch the Video on ScreenPal](https://go.screenpal.com/watch/cZQjr3VRpCY)
 
 ### **Steps:**
 
