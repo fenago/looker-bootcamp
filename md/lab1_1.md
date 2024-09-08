@@ -10,10 +10,6 @@ In this lab, you will set up a sandbox Looker environment, learn how to visualiz
 ---
 To get started with Lab 1_1, please watch the video demonstration below:
 
-[![Watch the Video](https://go.screenpal.com/api/thumbnail?url=cZQjr3VRpCY)](https://go.screenpal.com/watch/cZQjr3VRpCY)
-
-Click the image above or the link below to watch the video:
-
 [Watch the Video on ScreenPal](https://go.screenpal.com/watch/cZQjr3VRpCY)
 
 ### **Steps:**
